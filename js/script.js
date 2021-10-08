@@ -50,8 +50,8 @@ switch ( userSports ) {
         champ = `Жаль, что ты не захотел ввести свой любимый вид спорта`;
         break;
     default:
-        champ = `Интересный вид спорта ты предпочитаешь.`
-}
-console.log(champ)
+        champ = `Интересный вид спорта ты предпочитаешь.`;
+};
+console.log(champ);
 
-alert(`${year} ${town} ${champ}`)
+alert(`${year} ${town} ${champ}`);
